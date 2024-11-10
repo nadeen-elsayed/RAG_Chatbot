@@ -37,8 +37,11 @@ This repository provides a **Retrieval-Augmented Generation (RAG) chatbot** usin
     ```bash
     pip install -r requirements.txt
     ```
-
-4. **Run the application**:
+    
+4. **Set up IBM Watsonx credentials**:
+    - Provide your IBM Watsonx API credentials and project ID in the script.
+    
+5. **Run the application**:
     ```bash
     python qa_bot.py
     ```
